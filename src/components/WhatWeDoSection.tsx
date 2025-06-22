@@ -42,13 +42,13 @@ const WhatWeDoSection = () => {
           </div>
           
           {/* Mobile Connector */}
-          <div className="md:hidden flex items-center justify-center py-4">
+          {/* <div className="md:hidden flex items-center justify-center py-4">
             <div className="flex flex-col items-center space-y-2">
               <div className="w-px h-8 bg-gradient-to-b from-transparent via-purple-500 to-transparent"></div>
               <span className="text-purple-400 font-semibold">with</span>
               <div className="w-px h-8 bg-gradient-to-b from-transparent via-purple-500 to-transparent"></div>
             </div>
-          </div>
+          </div> */}
           
           {/* Connector 2 */}
           <div className="hidden md:flex items-center justify-center">
