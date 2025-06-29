@@ -73,6 +73,40 @@ const SubscriptionsSection = () => {
             </CardContent>
           </Card>
         </div>
+
+
+
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-16">
+          {/* Quarterly Plan */}
+          <Card className="glass-card hover:scale-105 transition-transform duration-300">
+            <CardHeader className="text-center pb-4">
+              <div className="flex items-center justify-center space-x-3 mb-4">
+                <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold">Q</span>
+                </div>
+                <CardTitle className="text-2xl text-white">Quarterly</CardTitle>
+              </div>
+              <p className="text-gray-400">₹833/month</p>
+            </CardHeader>
+            <CardContent className="text-center">
+              <div className="mb-6">
+                <span className="text-4xl font-bold text-white">₹2500</span>
+              </div>
+              <ul className="space-y-3 text-gray-300 mb-6">
+                <li>• AI-powered stock recommendations</li>
+                <li>• Real-time market analysis</li>
+                <li>• Quarterly portfolio review</li>
+                <li>• Email support</li>
+              </ul>
+              <Button className="w-full bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700">
+                Choose Quarterly
+              </Button>
+            </CardContent>
+          </Card>
+          
+          
+        </div>
       </div>
     </section>
   );

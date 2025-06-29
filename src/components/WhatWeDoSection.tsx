@@ -22,13 +22,13 @@ const WhatWeDoSection = () => {
           </div>
           
           {/* Connector 1 */}
-          <div className="hidden md:flex items-center justify-center">
+          {/* <div className="hidden md:flex items-center justify-center">
             <div className="flex items-center space-x-4">
               <div className="h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent flex-1"></div>
               <span className="text-cyan-400 font-semibold">on</span>
               <div className="h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent flex-1"></div>
             </div>
-          </div>
+          </div> */}
           
           {/* Card 2 */}
           <div className="gradient-border neomorphic-card p-8 text-center animate-fade-in" style={{animationDelay: '0.2s'}}>
@@ -51,13 +51,13 @@ const WhatWeDoSection = () => {
           </div> */}
           
           {/* Connector 2 */}
-          <div className="hidden md:flex items-center justify-center">
+          {/* <div className="hidden md:flex items-center justify-center">
             <div className="flex items-center space-x-4">
               <div className="h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent flex-1"></div>
               <span className="text-purple-400 font-semibold">with</span>
               <div className="h-px bg-gradient-to-r from-transparent via-purple-500 to-transparent flex-1"></div>
             </div>
-          </div>
+          </div> */}
           
           {/* Card 3 */}
           <div className="gradient-border neomorphic-card p-8 text-center animate-fade-in" style={{animationDelay: '0.4s'}}>
