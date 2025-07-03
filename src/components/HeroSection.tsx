@@ -10,7 +10,7 @@ const HeroSection = () => {
   const [isLogin, setIsLogin] = useState(true);
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 pt-20">
+    <section className="min-h-screen flex items-center justify-center px-4 pt-20 mt-8 md:mt-0">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-8 animate-slide-in">
